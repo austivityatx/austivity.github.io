@@ -13,13 +13,7 @@
 </div>
 <div class="survey">
   <article class="form-article">
-    <div class="tabs1-header" id="formStart">Choose the location that best suits your preference.</div>
-    <form>
-      <table class="tabs1-table">
-        <tbody>
-          <tr>
-            <td class="tableRow1">
-              <input type="radio" name="service" > 
+    
               
               
 </html>
