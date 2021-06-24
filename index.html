@@ -10,5 +10,25 @@
         <a href="#Outdoor" class="w3-button w3-bar-item">Outdoor Activities</a>
         <a href="#Volunteer" class="w3-button w3-bar-item">Volunteer</a>
     </nav>
-    
+    <section>
+        <img class="cityview" src="cityview.jpg" style="width:100%">
+        <img class="cityview" src="cityview1.jpg" style="width:100%">
+        <img class="cityview" src="cityview2.jpg" style="width:100%">
+    </section>
+    <script>
+        var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("cityview");
+        for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+    </script>
 </body>
