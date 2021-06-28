@@ -1,23 +1,39 @@
 <!DOCTYPE html>
+<html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
-
+<title>Austivity</title>
 <body>
-    <nav class="w3-bar w3-black">
-        <a href="#home" class="w3-button w3-bar-item">Home</a>
-        <a href="#Indoor" class="w3-button w3-bar-item">Indoor Activities</a>
-        <a href="#Outdoor" class="w3-button w3-bar-item">Outdoor Activities</a>
-        <a href="#Volunteer" class="w3-button w3-bar-item">Volunteer</a>
-        <a href="#About" class="w3-button w3-bar-item">About Us</a>
-    </nav>
-    <section>
-        <img class="cityview" src="cityview.jpg" style="width:100%">
-        <img class="cityview" src="cityview1.jpg" style="width:100%">
-        <img class="cityview" src="cityview2.jpg" style="width:100%">
-    </section>
-    <script>
-        var myIndex = 0;
+    
+    
+<nav class="w3-bar w3-black">
+    <a href="#home" class="w3-button w3-bar-item">Home</a>
+    <a href="#Indoor" class="w3-button w3-bar-item">Indoor Activities</a>
+    <a href="#Outdoor" class="w3-button w3-bar-item">Outdoor Activities</a>
+    <a href="#Volunteer" class="w3-button w3-bar-item">Volunteer</a>
+</nav>
+<section>
+    <img class="cityview" src="cityview.jpg" style="width:100%">
+    <img class="cityview" src="cityview1.jpg" style="width:100%">
+    <img class="cityview" src="cityview2.jpg" style="width:100%">
+</section>
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+    <h2 class="w3-wide">We need to put stuff here</h2>
+    <p class="w3-opacity"><i>here</i></p>
+    <p class="w3-justify">Here as well</p>
+</section>
+<section class="w3-container w3-content w3-center" style="max-width:600px">
+    <p class="w3-justify">
+    And especially here</p>
+</section>
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+    <p class="w3-medium">
+        Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+    </p>
+</footer>
+<script>
+    var myIndex = 0;
     carousel();
 
     function carousel() {
@@ -31,5 +47,7 @@
     x[myIndex-1].style.display = "block";
     setTimeout(carousel, 3000);
 }
-    </script>
+</script>
+
 </body>
+</html>
